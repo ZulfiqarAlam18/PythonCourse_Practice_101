@@ -2,4 +2,4 @@
 
 print("Zulfiqar Alam")
 print("'Zulfiqar Alam'") #Single quotes
-print("")
+print("Zulfiqar \nAlam") #Going in Next Line
