@@ -1,0 +1,12 @@
+
+{
+    "name":"Jerry Brook",
+    "age":19,
+    "city":"London",
+    "Fav_colors": ["Black","REd"],
+    "adress":{
+        "street_no":12,
+        "house_no":5,
+        "zip":32443
+    }
+}
