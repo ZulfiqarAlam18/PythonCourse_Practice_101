@@ -1,0 +1,5 @@
+finally ,if, elif,else, True ,False,None,not,or,in,for,while,as,assert,async,with,lamda,global,nonlocal,try,yeild,
+pass, raise,import,def,class,break,continue,del,return,except
+
+
+These are certain words in python that we cannot use them as identifers
