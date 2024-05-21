@@ -1,0 +1,89 @@
+What is a metaclass in Python, and how do you use it?
+A metaclass is a class of a class that defines how a class behaves. You use it by defining a metaclass in the class definition using the metaclass keyword.
+
+Explain the Global Interpreter Lock (GIL) and its implications.
+The GIL is a mutex that allows only one thread to execute Python bytecode at a time, which can limit the performance of CPU-bound multi-threaded programs.
+
+How does Python's memory management work?
+Python uses reference counting and garbage collection (via the gc module) to manage memory. It automatically handles memory allocation and deallocation for objects.
+What are Python descriptors and how do they work?
+
+Descriptors are objects with methods __get__, __set__, and __delete__. They allow you to customize access to attributes and implement properties, methods, and static methods.
+What is the difference between staticmethod and classmethod?
+
+staticmethod does not receive an implicit first argument and is similar to a regular function. classmethod receives the class as the first argument and can modify class state.
+What are Python decorators, and how do they work?
+
+Decorators are functions that modify the behavior of other functions or methods. They work by taking a function as an argument, extending its behavior, and returning a new function.
+Explain the use of super() in Python.
+
+super() is used to call a method from a parent class within a subclass. It helps in resolving the method resolution order (MRO) in multiple inheritance scenarios.
+What is monkey patching in Python?
+
+Monkey patching refers to modifying or extending code at runtime. It allows you to change or extend the behavior of libraries or classes without modifying their original code.
+Explain the concept of generators and how they differ from iterators.
+
+Generators are a type of iterator that use the yield statement to return values lazily, producing items one at a time as needed. They are more memory-efficient than regular iterators.
+What are Python context managers, and how do you create one?
+
+Context managers are used to manage resources (e.g., files) and ensure proper cleanup. They are created using the with statement and can be implemented using classes with __enter__ and __exit__ methods or with the contextlib module.
+How does Python's garbage collector work?
+
+Python's garbage collector uses reference counting and a cyclic garbage collector to detect and clean up cyclic references. The gc module provides functions to interact with the garbage collector.
+What is memoization and how is it implemented in Python?
+
+Memoization is an optimization technique to cache the results of expensive function calls. In Python, it can be implemented using decorators or the functools.lru_cache decorator.
+What is the difference between deepcopy and copy?
+
+copy creates a shallow copy of an object, copying only the references. deepcopy creates a deep copy, copying the object and all nested objects recursively.
+What are metaclasses, and how do you use them in Python?
+
+Metaclasses control the creation of classes and their behavior. They are used by defining a __new__ or __init__ method in a class that inherits from type.
+Explain the concept of duck typing in Python.
+
+Duck typing is a concept where an object's suitability is determined by the presence of certain methods and properties, rather than the object's type itself.
+How do you handle exceptions in Python?
+
+Exceptions are handled using try, except, finally, and else blocks. You can catch specific exceptions or use a generic Exception.
+What is the difference between __str__ and __repr__?
+
+__str__ returns a human-readable string representation of an object, while __repr__ returns an unambiguous string representation for debugging.
+What are Python's built-in data structures?
+
+Lists, tuples, sets, dictionaries, strings, and frozensets.
+How does Python implement method resolution order (MRO)?
+
+Python uses the C3 linearization algorithm to determine the method resolution order in multiple inheritance. The MRO can be viewed using the __mro__ attribute or mro() method.
+What is the purpose of the __slots__ declaration?
+
+__slots__ is used to restrict the attributes that instances of a class can have, reducing memory usage and improving performance by preventing the creation of __dict__.
+Explain the difference between mutable and immutable types.
+
+Mutable types (e.g., lists, dictionaries) can be changed after creation, while immutable types (e.g., strings, tuples) cannot.
+How do you manage dependencies in a Python project?
+
+Dependencies are managed using pip and requirements.txt or tools like pipenv and Poetry to create isolated environments.
+What are the different ways to create a dictionary in Python?
+
+Using {}, dict(), dictionary comprehensions, or the fromkeys() method.
+How can you optimize the performance of Python code?
+
+Use built-in functions, list comprehensions, efficient algorithms, and libraries like NumPy. Profiling and using Just-In-Time (JIT) compilers like PyPy can also help.
+What is the difference between __getattr__ and __getattribute__?
+
+__getattr__ is called only when an attribute is not found, while __getattribute__ is called for every attribute access.
+Explain the use of with statement and context managers in Python.
+
+The with statement ensures proper acquisition and release of resources, simplifying resource management using context managers that implement __enter__ and __exit__.
+What are Python's built-in functions for handling iterators?
+
+Functions like iter(), next(), map(), filter(), zip(), reduce(), enumerate(), and sorted().
+What is a mixin, and how do you use it in Python?
+
+A mixin is a class that provides methods to other classes through multiple inheritance but is not intended to stand alone. Mixins are used to add reusable functionality to classes.
+How do you implement caching in Python?
+
+Caching can be implemented using the functools.lru_cache decorator or third-party libraries like cachetools or redis.
+What is the purpose of the collections module?
+
+The collections module provides specialized container datatypes like namedtuple, deque, Counter, OrderedDict, and defaultdict.
