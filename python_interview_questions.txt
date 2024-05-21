@@ -1,0 +1,148 @@
+What is Python?
+Python is an interpreted, high-level, general-purpose programming language known for its readability and ease of use.
+
+What are Python’s key features?
+Interpreted, dynamically typed, high-level, readable, and comprehensive standard library.
+
+What is PEP 8?
+PEP 8 is the Python Enhancement Proposal which provides guidelines and best practices on how to write Python code.
+
+What is the difference between list and tuple?
+Lists are mutable and can be changed after creation, whereas tuples are immutable.
+
+How is memory managed in Python?
+Python uses automatic garbage collection to manage memory.
+What are Python decorators?
+Decorators are functions that modify the behavior of other functions or methods.
+
+**What are *args and kwargs?
+*args is used to pass a variable number of non-keyword arguments, and **kwargs is used to pass a variable number of keyword arguments.
+
+Explain the use of self in Python.
+self represents the instance of the class and is used to access class variables and methods.
+
+What is the difference between __init__ and __new__?
+__init__ initializes a new instance of a class, while __new__ creates and returns a new instance.
+What is a lambda function?
+
+A lambda function is an anonymous function defined with the lambda keyword.
+What is the difference between deepcopy and copy?
+
+copy creates a shallow copy of an object, while deepcopy creates a deep copy of an object, including nested objects.
+What is the Global Interpreter Lock (GIL)?
+
+The GIL is a mutex that protects access to Python objects, preventing multiple threads from executing Python bytecodes at once.
+What are Python modules and packages?
+
+Modules are individual Python files containing Python code, while packages are directories containing multiple modules.
+What is list comprehension?
+
+List comprehension provides a concise way to create lists using a single line of code.
+What is the difference between range() and xrange()?
+
+range() returns a list in Python 2 and an iterator in Python 3. xrange() returns an iterator in Python 2 (removed in Python 3).
+What is the difference between is and ==?
+
+is checks for object identity, while == checks for value equality.
+Explain the use of with statement in Python.
+
+The with statement is used to wrap the execution of a block of code within methods defined by a context manager, ensuring proper resource management.
+What is a generator in Python?
+
+Generators are iterators that yield items one at a time using the yield keyword.
+What is the purpose of the __name__ variable in Python?
+
+The __name__ variable allows you to check whether a module is being run directly or imported.
+What are docstrings in Python?
+
+Docstrings are string literals used to document modules, classes, functions, and methods.
+What is a virtual environment?
+
+A virtual environment is an isolated environment for Python projects, ensuring dependencies are separate.
+How do you handle exceptions in Python?
+
+Using try, except, finally, and else blocks.
+What is the difference between @staticmethod and @classmethod?
+
+@staticmethod defines a static method that does not receive an implicit first argument, while @classmethod defines a method that receives the class as the first argument.
+What is the difference between Python 2 and Python 3?
+
+Python 3 is the latest version with several improvements over Python 2, including print as a function, Unicode support, and integer division.
+What is a Python iterator?
+
+An iterator is an object that implements the __iter__() and __next__() methods.
+How can you optimize the performance of Python code?
+
+Use built-in functions, list comprehensions, efficient algorithms, and libraries like NumPy.
+What are Python’s built-in data types?
+
+int, float, str, list, tuple, set, dict, and bool.
+Explain the difference between remove(), del, and pop().
+
+remove() removes the first matching value, del removes an item by index, and pop() removes and returns an item by index.
+What is the purpose of pass in Python?
+
+pass is a null operation used as a placeholder for future code.
+How do you manage dependencies in a Python project?
+
+Using pip and requirements.txt or tools like pipenv and Poetry.
+What is a namespace in Python?
+
+A namespace is a container that holds a set of identifiers and the objects they refer to.
+How do you create a virtual environment in Python?
+
+Using python -m venv <env_name>.
+What is monkey patching in Python?
+
+Monkey patching is dynamically modifying or extending a class or module at runtime.
+What are Python’s built-in functions?
+
+Examples include len(), max(), min(), sum(), sorted(), etc.
+What is the difference between map(), filter(), and reduce()?
+
+map() applies a function to all items in an iterable, filter() filters items based on a function, and reduce() applies a function cumulatively to items in an iterable.
+What is the difference between join() and split()?
+
+join() concatenates a list of strings into a single string with a separator, while split() splits a string into a list based on a separator.
+What are Python magic methods?
+
+Special methods with double underscores that define behavior for operators and built-in functions (e.g., __init__, __str__, __repr__).
+What is the purpose of the glob module?
+
+The glob module is used to find all the pathnames matching a specified pattern.
+What is the difference between shallow copy and deep copy?
+
+Shallow copy copies only the references to objects, while deep copy copies the objects themselves recursively.
+How can you concatenate lists in Python?
+
+Using the + operator or extend() method.
+What is the use of enumerate() in Python?
+
+enumerate() adds a counter to an iterable and returns it as an enumerate object.
+How can you read and write files in Python?
+
+Using the open() function with modes like 'r' for reading and 'w' for writing.
+What is the difference between input() and raw_input()?
+
+raw_input() reads input as a string in Python 2, while input() does the same in Python 3. In Python 2, input() evaluates the input as code.
+What are Python sets and how are they used?
+
+Sets are unordered collections of unique elements used for membership testing, removing duplicates, and set operations like union and intersection.
+What is the use of zip() in Python?
+
+zip() combines multiple iterables into a single iterator of tuples.
+How do you install third-party packages in Python?
+
+Using pip with the command pip install <package_name>.
+What is list slicing and how is it used?
+
+List slicing allows you to access a subset of a list using the syntax list[start:stop:step].
+How do you handle dates and times in Python?
+
+Using the datetime module.
+What is the difference between mutable and immutable types?
+
+Mutable types can be changed after creation (e.g., lists, dictionaries), while immutable types cannot (e.g., strings, tuples).
+What is the purpose of the re module?
+
+The re module is used for working with regular expressions to match patterns in strings.

@@ -1,0 +1,14 @@
+Module: A single Python file with reusable code (e.g., math).
+Package: A directory of related modules (e.g., mypackage).
+Library: A collection of related modules and packages designed to be reused (e.g., requests).
+Framework: A comprehensive set of tools and libraries designed to support the development of applications with a structured approach (e.g., Django).
+
+
+##10 popular python fram works:
+for web : django , flast , fast api
+for data sceience and machine learning : pandas, numpy ,pytorch
+for game development : pygame
+for gui : tkinter
+for dash /data visulization :dash
+for cyber secuity /ethical hacking : nmap, wireshark, meta exploit,burp suit, John the ripper
+openVAs , nikto etc
