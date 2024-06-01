@@ -1,0 +1,4 @@
+
+Sets: unordered collection of unique elements 
+note: there won't be any order of elements that are to be printed . it always prints in different order may or may not be same 
+if you want order than use a different data type like lists
