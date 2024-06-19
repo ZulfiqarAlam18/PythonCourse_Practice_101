@@ -1,0 +1,2 @@
+
+print("Sytem working properly")
